@@ -1,0 +1,85 @@
+#titolo {
+    font-size: 60px;    
+    text-align: center;
+    
+}
+body {
+    background-color: #403636;
+}
+#sottotitolo {
+    position: absolute;
+    top: 15.7%;
+    text-align: center;
+    font-size: 30px;
+}
+#lista {
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    border: red solid 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+#sottotitolo1 {
+    font-size: 30px;
+    position: absolute;
+    top: 15.7%;
+    right: 26.4%;
+
+}
+#lista2 {
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    border: rgb(4, 211, 32) solid 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    right: 1%;
+}
+
+#menuprincipale {
+    width: 15%;
+    border: #1980ff 3px solid;
+    border-radius: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#sottotitolo2 {
+    font-size: 30px;
+    position: absolute;
+    top: 38.5%;
+    left: 1%;
+}
+
+#lista3 {
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    border: blue solid 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 43%;
+    left: 1%;
+
+}
+#sottotitolo3 {
+    font-size: 30px;
+    position: absolute;
+    top: 38.5%;
+    right: 13%;
+}
+#lista4 {
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    border: rgb(217, 255, 0) solid 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 43%;
+    right: 1%;
+}

@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="idle game.css">
+
+    </head>
+    <body>
+
+        <form action="menu.html">
+            <button type="submit" id="tornaamenu">
+              menu principale
+            </button>  
+          </form>
+            <h1 id="titolo">quark the game</h1>
+            <h2 id="counter" class="number">1</h2>
+            <button id="ciao" onclick="produci()">produci</button>
+          <div id="moltiplicatorebottone">
+            <h2>moltiplicatore</h2>
+            <h2 id="moltiplicatore"></h2>
+            <button id="ciao2" onclick="potenziamoltiplicatore()">potenzia</button>
+          </div>
+          <div id="protonee">
+            <h2>crea protoni</h2>
+            <h2 id="numeroprotoni"></h2>
+            <button id="ciao3" onclick="compraprotoni()">crea un protone</button>
+          </div>
+          <div id="neutronii">
+            <h2>crea neutroni</h2>
+            <h2 id="neutroni"></h2>
+            <button id="ciao4" onclick="compraneutroni()">crea neutrone</button>
+          </div>
+          <div id="elettronee">
+            <h2>crea elettroni</h2>
+            <h2 id="elettroni"></h2>
+            <button id="ciao5" onclick="compraelettroni()">crea elettrone</button>
+          </div>
+          <h2 id="craftingavanzato">crafting avanzato</h2>
+        <div id="idrogenotot">
+          <h2 id="idrogenotit">idrogeno</h2>
+          <h2 id="counteridrogeno"></h2>
+          <button id="bottoneidrogeno" onclick="creaidrogeno()">crea idrogeno</button>
+        </div>
+        <div id="carboniotot">
+          <h2 id="titolocar">carbonio</h2>
+          <h2 id="carboniocounter"></h2>
+          <button id="bottonecarbonio" onclick="creacarbonio()">crea carbonio</button>
+        </div>
+        <div id="ossigenotot">
+          <h2 id="titolooss">ossigeno</h2>
+          <h2 id="ossigenocounter"></h2>
+          <button id="bottoneossigeno" onclick="creaossigeno()">crea ossigeno</button>
+        </div>
+        <div id="eliotot">
+          <h2 id="titoloeli">elio</h2>
+          <h2 id="eliocounter"></h2>
+          <button id="bottoneelio" onclick="creaelio()">crea elio</button>
+        </div>
+        <div id="zolfotot">
+          <h2 id="titolozol">zolfo</h2>
+          <h2 id="zolfocounter"></h2>
+          <button id="bottonezolfo" onclick="creazolfo()">crea zolfo</button>
+        </div>
+        <button id="salva" class="button">salva</button>
+        <div id="galassie">
+        <h2 id="titolo45">galassie di quark</h2>
+        <h2 id="countergalassie"></h2>
+        </div>    
+
+        <script src="idle game.js"></script>
+    </body>
+</html>

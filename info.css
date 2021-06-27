@@ -1,0 +1,28 @@
+body {
+    background-color:#403636;
+}
+#infotitolo {
+    font-size: 70px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 33px;
+}
+#canale {
+    width: 34%;
+    margin-left: 33% ;
+    font-size: 30px;
+    margin-right: 33% ;
+    border: black 3px solid;
+    border-radius: 40px;
+}
+#tornamenu {
+    width: 34%;
+    margin-left: 33% ;
+    font-size: 30px;
+    margin-right: 33% ;
+    margin-top: 285px;
+    border: black 3px solid;
+    border-radius: 40px;
+}
